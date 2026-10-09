@@ -1,0 +1,88 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("imagem.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.88);
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid #e50914;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff2633;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #dddddd;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+input, select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #777777;
+    border-radius: 8px;
+    background-color: #191919;
+    color: white;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    outline: 2px solid #e50914;
+}
+
+button {
+    padding: 14px 25px;
+    border: 2px solid #e50914;
+    border-radius: 25px;
+    background-color: #e50914;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #a80710;
+}
+
+button[type="reset"] {
+    background-color: transparent;
+}
+
+button[type="reset"]:hover {
+    background-color: #e50914;
+}
+```
